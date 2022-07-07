@@ -1,0 +1,40 @@
+
+/* колір основного тексту #212121 */
+/* колір другорядного тексту  #757575 */
+/* колір футера тексту rgba(255, 255, 255, 0.6) */
+/* колір фону Наша Команда #F5F4FA */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+
+:root {
+   /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* text colors */
+    --main-txt-cl: #212121;
+    --second-txt-cl: #757575
+    --accent-txt-cl: #2196F3;
+    --btn-txt-cl: #ffffff;
+
+    /* bg colors */
+    --light-bg-cl: #E5E5E5;
+    --gray-bg-cl: #F5F4FA
+    --dark-bg-cl: #2F303A;
+
+    /* others */
+
+}
+
+body {
+    background-color: #E5E5E5;
+    color: #212121;
+}
+
+.logo {
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
