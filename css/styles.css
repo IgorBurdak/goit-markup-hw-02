@@ -4,6 +4,7 @@
 /* колір футера тексту rgba(255, 255, 255, 0.6) */
 /* колір фону Наша Команда #F5F4FA */
 /* білий #FFFFFF */
+/* чорний #000000 */
 /* акцент #2196F3 */
 
 :root {
@@ -21,6 +22,8 @@
     --light-bg-cl: #E5E5E5;
     --gray-bg-cl: #F5F4FA
     --dark-bg-cl: #2F303A;
+    --white-bg-cl: #ffffff
+    
 
     /* others */
 
@@ -29,12 +32,51 @@
 body {
     background-color: #E5E5E5;
     color: #212121;
+
+    font-family: var(main-font);
+    color: var(-main-txt-cl);
 }
 
-.logo {
-    color: #000000;
-}
+
 
 .list {
     list-style: none;
+}
+
+.btn {
+    background-color: var(--accent-txt-cl);
+    color: var(--btn-txt-cl);
+    cursor: pointer;
+
+}
+
+/**
+  |============================
+  | Header section
+  |============================
+*/
+.header {
+    background-color: var(--white-bg-cl);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: var(--accent-txt-cl)
+}
+
+.logo-accent {
+    color: #000000;
+}
+/**
+  |============================
+  | footer section
+  |============================
+*/
+.footer {
+  background-color: var(--dark-bg-cl);
+  color: var(-main-txt-cl);  
 }
