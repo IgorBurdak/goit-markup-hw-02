@@ -25,8 +25,6 @@
     --gray-bg-cl: #F5F4FA;
     --dark-bg-cl: #2F303A;
     
-    
-
     /* others */
 
 }
@@ -63,7 +61,9 @@ body {
     cursor: pointer;
 }
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.filter-btn:hover,
+.filter-btn:focus {
     background-color: #188ce8;
     color: var(--btn-txt-cl);
 }
@@ -208,6 +208,41 @@ body {
     color: var(-second-txt-cl);
 }
 
+
+/**
+  |============================
+  | portfolio section
+  |============================
+*/
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--gray-bg-cl);
+    color: var(--main-txt-cl);
+}
+.filter-btn-accent {
+    background-color: var(--accent-txt-cl);
+    color: var(--btn-txt-cl);
+}
+.portfolio-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-txt-cl);
+}
+.portfolio-item-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+     color: var(--second-txt-cl);
+}
+
 /**
   |============================
   | footer section
@@ -219,14 +254,24 @@ body {
 
 .footer-list {
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-place {
    color: var(--btn-txt-cl);
 }
+.footer-place:hover,
+.footer-place:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus {
+    color: var(--accent-txt-cl);
+}
+
+
     
