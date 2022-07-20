@@ -30,6 +30,7 @@
 }
 
 body {
+    margin: 0;
     background-color: #ffffff;
     color: #212121;
 
@@ -37,6 +38,10 @@ body {
     color: var(--main-txt-cl);
 }
 /* reset styles */
+
+img {
+    display: block;
+}
 
 .link {
     text-decoration: none;
